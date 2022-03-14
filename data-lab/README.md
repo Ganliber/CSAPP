@@ -586,7 +586,7 @@ unsigned floatPower2(int x) {
 
 ##### Scores
 
-![data_lab_scores](D:\csapp\images\data_lab_scores.png)
+![data_lab_scores](https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png)
 
 ##### Reflection
 
