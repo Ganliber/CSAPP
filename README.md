@@ -26,7 +26,7 @@
 
 * Docker 配置
 
-  ![ini_env](https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png)
+![ini_env](https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png)
 
 ```
 images : 镜像
@@ -34,6 +34,12 @@ containers/App : 容器
 	1.Host Path : 本地文件夹
 	2.Container Path : 本地文件夹挂载到容器中的文件夹
     3.Container Name : 容器名称
+```
+
+* 从仓库拉去Ubuntu镜像
+
+```
+docker pull ubuntu:18.04
 ```
 
 * 更新apt软件源
