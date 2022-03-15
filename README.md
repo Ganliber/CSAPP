@@ -26,7 +26,7 @@
 
 * Docker 配置
 
-<img src="https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png" style="zoom:50%"/>
+<img src="https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png" width = "600" height = "400"/>
 
 ```
 images : 镜像
