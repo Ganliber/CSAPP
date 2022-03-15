@@ -586,7 +586,7 @@ unsigned floatPower2(int x) {
 
 ##### Scores
 
-![data_lab_scores](https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png){:height="30%" width="30%"}
+<img src="https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png" style="zoom:30%">
 
 ##### Reflection
 
