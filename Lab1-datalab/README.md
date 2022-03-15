@@ -586,7 +586,7 @@ unsigned floatPower2(int x) {
 
 ##### Scores
 
-<img src="https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png" style="zoom:30%">
+<img src="https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png" width = "450" height = "300">
 
 ##### Reflection
 
