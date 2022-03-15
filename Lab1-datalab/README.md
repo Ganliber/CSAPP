@@ -155,7 +155,7 @@ NOTES:
 
 ##### basic kownledge
 
-* 优先级：`!` > `~` > `>> or <<` > `&(按位与)` > `^(按位异或)` > `|(按位异或)`
+* 优先级：`!` > `~` > `>> or <<` > `&(按位与)` > `^(按位异或)` > `|(按位或)`
 * gcc指令：
   * **-Wall** : 在众多的警告选项之中，最常用的就是-Wall选项。该选项能发现程序中一系列的常见错误警告
   * **-O** : -O、-O1优化编译需要更多时间，并且大型函数需要更多内存。使用-O选项，编译器会尝试减小代码尺寸减少执行时间，不执行任何需要大量编译时间的优化。 (还有O2,O3...)
@@ -586,7 +586,7 @@ unsigned floatPower2(int x) {
 
 ##### Scores
 
-![data_lab_scores](https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png)
+![data_lab_scores](https://github.com/Ganliber/CSAPP/blob/main/images/data_lab_scores.png){:height="30%" width="30%"}
 
 ##### Reflection
 

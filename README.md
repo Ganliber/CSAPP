@@ -8,7 +8,7 @@
 
 * `docker`和`virtualizan`的区别与联系：
 
-  ![docker_and_virtualization](https://github.com/Ganliber/CSAPP/blob/main/images/docker_and_virtualization.png)
+  ![docker_and_virtualization](https://github.com/Ganliber/CSAPP/blob/main/images/docker_and_virtualization.png){:height="50%" width="50%"}
 
   * 虚拟化会使用虚拟机监控程序模拟硬件，从而使多个操作系统能够并行运行。但这不如容器轻便。事实上，在仅拥有容量有限的有限资源时，您需要能够进行密集部署的轻量级应用。Linux 容器在本机操作系统上运行，与所有容器共享该操作系统，因此应用和服务能够保持轻巧，并行化快速运行。
 
@@ -26,7 +26,7 @@
 
 * Docker 配置
 
-![ini_env](https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png)
+![ini_env](https://github.com/Ganliber/CSAPP/blob/main/images/ini_env.png){:height="50%" width="50%"}
 
 ```
 images : 镜像
