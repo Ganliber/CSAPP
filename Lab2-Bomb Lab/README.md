@@ -403,7 +403,8 @@
   反汇编`phase_3`函数
 
   ```assembly
-  Dump of assembler code for function phase_3:                       0x0000000000400f43 <+0>:     sub    $0x18,%rsp                   
+  Dump of assembler code for function phase_3:                       
+  0x0000000000400f43 <+0>:     sub    $0x18,%rsp                   
   0x0000000000400f47 <+4>:     lea    0xc(%rsp),%rcx               
   0x0000000000400f4c <+9>:     lea    0x8(%rsp),%rdx               
   0x0000000000400f51 <+14>:    mov    $0x4025cf,%esi               
