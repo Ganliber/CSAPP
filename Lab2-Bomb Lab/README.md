@@ -270,7 +270,8 @@
   `(gdb) disas read_six_numbers`
 
   ```assembly
-  Dump of assembler code for function read_six_numbers:               0x000000000040145c <+0>:     sub    $0x18,%rsp                   
+  Dump of assembler code for function read_six_numbers:               
+  0x000000000040145c <+0>:     sub    $0x18,%rsp                   
   0x0000000000401460 <+4>:     mov    %rsi,%rdx                    
   0x0000000000401463 <+7>:     lea    0x4(%rsi),%rcx               
   0x0000000000401467 <+11>:    lea    0x14(%rsi),%rax              
