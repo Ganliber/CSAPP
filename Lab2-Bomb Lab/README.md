@@ -229,7 +229,7 @@
 
 * 先确定栈分析的习惯
 
-  <img src="D:\github\CSAPP\images\lab2_phase_2_1.png" alt="lab2_phase_2_1" style="zoom:30%;" />
+  <img src="https://github.com/Ganliber/CSAPP/blob/main/images/lab2_phase_2_1.png" alt="lab2_phase_2_1" style="zoom:30%;" />
 
 * 分析
 
@@ -325,7 +325,7 @@
   
   注意到该函数入口处的`%esi`被用来传`string format`地址，因此前四个参数分别用寄存器`rdx,rcx,r8,r9`来传递，最后两个参数用栈传递，寄存器和栈空间传递的都是地址值，register之间(如`mov    %rsi,%rdx`)用的`mov`指令，因为`rsi`本身值就是地址值，register和memory或memory之间(通过`rax`做中介)用的指令为`lea`
   
-  <img src="D:\github\CSAPP\images\lab2_phase_2_2.png" alt="lab2_phase_2_2" style="zoom:30%;" />
+  <img src="https://github.com/Ganliber/CSAPP/blob/main/images/lab2_phase_2_2.png" alt="lab2_phase_2_2" style="zoom:30%;" />
   
   回到`phase_2`
   
@@ -361,7 +361,7 @@
   
   关键点是<+14>处的`cmpl $0x1,(%rsp)`比较的只是低32位，以及<+30>处的双倍处理和<+48>的循环标志。
 
-<img src="D:\github\CSAPP\images\lab2_phase_2_3.png" alt="lab2_phase_2_3" style="zoom:25%;" />
+<img src="https://github.com/Ganliber/CSAPP/blob/main/images/lab2_phase_2_3.png" alt="lab2_phase_2_3" style="zoom:25%;" />
 
 
 
@@ -764,7 +764,7 @@
   0x0000000000401078 <+22>:    xor    %eax,%eax 
   ```
   
-  <img src="D:\github\CSAPP\images\lab2_phase_2_4.png" alt="lab2_phase_2_4" style="zoom:30%;" />
+  <img src="https://github.com/Ganliber/CSAPP/blob/main/images/lab2_phase_2_4.png" alt="lab2_phase_2_4" style="zoom:30%;" />
   
   由开头代码可得
   
@@ -823,7 +823,14 @@
 
 ***
 
+* 等价转换
 
+  ```C++
+  //首先确定有6个参数
+  
+  ```
+
+  
 
 
 
